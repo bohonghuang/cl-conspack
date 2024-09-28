@@ -18,7 +18,7 @@
           (cycle (expt 2 31))
           (cycle (expt 2 63))
           (cycle (expt 2 127))
-          (cycle 5s0)
+          (cycle 5f0)
           (cycle 10d0)
           (cycle #C(0 1))
           (cycle 1/2)
