@@ -32,6 +32,10 @@
           (cycle "ሰማይ አይታረስ ንጉሥ አይከሰስ።")
           (cycle "ᚻᛖ ᚳᚹᚫᚦ ᚦᚫᛏ ᚻᛖ ᛒᚢᛞᛖ ᚩᚾ ᚦᚫᛗ ᛚᚪᚾᛞᛖ ᚾᚩᚱᚦᚹᛖᚪᚱᛞᚢᛗ ᚹᛁᚦ ᚦᚪ ᚹᛖᛥᚫ"))
 
+(5am:test pathnames
+          (cycle #P"path/to/file")
+          (cycle #P"/path/to/file"))
+
 (5am:test containers
           (let ((hash (make-hash-table)))
             (setf (gethash 5 hash) 50

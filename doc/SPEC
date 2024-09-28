@@ -21,6 +21,7 @@ Conspack supports the following basic types:
     - Packages
     - Symbols
     - Indexes (i.e., externally-indexed symbols)
+    - Pathnames
 
 Containers can either contain arbitrary objects, which include their
 header, or a fixed type, which stores only the post-header data

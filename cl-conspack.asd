@@ -27,6 +27,7 @@
    (:file "indexes")
    (:file "tmap")
    (:file "array")
+   (:file "pathname")
    (:file "encode")
    (:file "decode")
    (:file "explain")))
